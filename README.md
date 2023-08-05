@@ -8,4 +8,5 @@
 
 <h4 align="center">BlueMods AntiCheat for Minecraft Bedrock is a powerful tool designed to protect your server from hackers, & cheaters</a>.</h4>
 
-## AntiCheat Features :
+## BlueMods Features :
+* **Coming Soon**
