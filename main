@@ -2,8 +2,8 @@ local mouse = player:GetMouse()
 local msg = Instance.new("Message", player.PlayerGui)
 
 -- Speed & Jump Boost by BlueMods
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = 20
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 
  local message = Instance.new("Message", workspace)
         message.Text = "Script Made By BlueMods, Works wiht Github UI"
