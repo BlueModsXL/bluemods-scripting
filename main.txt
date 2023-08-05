@@ -3,6 +3,16 @@ game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
  
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = 20
 
+local mouse = player:GetMouse()
+local msg = Instance.new("Message", player.PlayerGui)
+msg.Text = "Script Made By BlueMods, Press t to destroy this message"
+
+mouse.KeyDown:Connect(function(key)
+    if key == "t" then
+        msg:Destroy()
+    end
+end)
+
 -- Infinite Jump by BlueMods
 local infjmp = true
 game:GetService("UserInputService").jumpRequest:Connect(function()
