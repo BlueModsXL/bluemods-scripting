@@ -1,3 +1,6 @@
+local msg = Instance.new("Message", player.PlayerGui)
+msg.Text = "Script Made By BlueMods / https://dsc.gg/bluemods"
+
 -- Speed & Jump Boost by BlueMods
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
