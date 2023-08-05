@@ -10,3 +10,10 @@
 
 ## BlueMods Features :
 * **Coming Soon**
+
+## Credits
+**Creators/Developers**
+- [BluexD#7232](https://dsc.gg/bluemods)</br>
+
+## Links
+> [Discord Community](https://dsc.gg/bluemods) [Official Websites](https://bluemods.neocities.org) [Youtube Channel](https://youtube.com/@BlueModsYT)
