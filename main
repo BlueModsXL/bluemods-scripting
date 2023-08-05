@@ -8,6 +8,7 @@ local msg = Instance.new("Message", player.PlayerGui)
         msg.Text = "Script Made By BlueMods, Works wiht Github UI"
         wait(5.5)
         message:Destroy()
+end
 
 -- Infinite Jump by BlueMods
 local infjmp = true
