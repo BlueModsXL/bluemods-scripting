@@ -1,0 +1,12 @@
+-- Speed & Jump Boost by BlueMods
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
+ 
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 20
+
+-- Infinite Jump by BlueMods
+local infjmp = true
+game:GetService("UserInputService").jumpRequest:Connect(function()
+    if infjmp then
+        game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass"Humanoid":ChangeState("Jumping")
+    end
+end)
