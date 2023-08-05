@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://www.youtube.com/c/BlueModsYT"><img src="blue.png" alt="BlueMods" width="200"></a>
+  <a href="https://www.youtube.com/BlueModsYT"><img src="blue.png" alt="BlueMods" width="200"></a>
   <br>
   BlueMods Jump % Speed Boosts
   <br>
@@ -11,6 +11,7 @@
 ## BlueMods Features :
 * **Jump Boost 50x**
 * **Speed Boost 50x**
+* **Infinite Jump**
 
 ## Credits :
 **Creators/Developers**
