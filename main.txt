@@ -5,7 +5,10 @@ local msg = Instance.new("Message", player.PlayerGui)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = 20
 
-msg.Text = "Script Made By BlueMods, Press t to destroy this message"
+ local message = Instance.new("Message", workspace)
+        message.Text = "Script Made By BlueMods, Works wiht Github UI"
+        wait(5.5)
+        message:Destroy()
 
 mouse.KeyDown:Connect(function(key)
     if key == "t" then
