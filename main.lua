@@ -1,7 +1,7 @@
-local msg = Instance.new("Message", player.PlayerGui)
-msg.Text = "Script Made By BlueMods / https://dsc.gg/bluemods"
-        wait(5.5)
-        msg:Destroy()
+ local message = Instance.new("Message", workspace)
+        message.Text = "Made By BlueMods / https://dsc.gg/bluemods"
+        wait(4.5)
+        message:Destroy()
 
 -- Speed & Jump Boost by BlueMods
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
