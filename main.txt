@@ -1,10 +1,10 @@
--- Speed & Jump Boost by BlueMods
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
- 
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = 20
-
 local mouse = player:GetMouse()
 local msg = Instance.new("Message", player.PlayerGui)
+
+-- Speed & Jump Boost by BlueMods
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 20
+
 msg.Text = "Script Made By BlueMods, Press t to destroy this message"
 
 mouse.KeyDown:Connect(function(key)
