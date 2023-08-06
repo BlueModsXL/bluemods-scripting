@@ -4,7 +4,7 @@
         message:Destroy()
 
 -- Speed & Jump Boost by BlueMods
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 500
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1000
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
 
 -- Infinite Jump by BlueMods
