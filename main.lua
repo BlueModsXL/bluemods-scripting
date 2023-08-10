@@ -1,6 +1,6 @@
  local message = Instance.new("Message", workspace)
         message.Text = "Made By BlueMods / https://dsc.gg/bluemods"
-        wait(4.5)
+        wait(2.5)
         message:Destroy()
 
 -- Speed & Jump Boost by BlueMods
