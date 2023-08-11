@@ -7,6 +7,12 @@
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 game.Players.LocalPlayer.Character.Humanoid.JumpSpeed = 50
 
+game:GetService("Lighting").Brightness = 2
+game:GetService("Lighting").ClockTime = 14
+game:GetService("Lighting").FogEnd = 100000
+game:GetService("Lighting").GlobalShadows = false
+game:GetService("Lighting").OutdoorAmbient = Color3.fromRGB(128, 128, 128)
+
 pcall(function()
     local lighting = game:GetService("Lighting");
     lighting.Ambient = Color3.fromRGB(255, 255, 255);
