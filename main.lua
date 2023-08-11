@@ -1,10 +1,11 @@
  local message = Instance.new("Message", workspace)
-        message.Text = "Made By BlueMods / https://dsc.gg/bluemods"
+        message.Text = "https://dsc.gg/bluemods"
         wait(2.5)
         message:Destroy()
 
 -- Speed & Jump Boost by BlueMods
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+game.Players.LocalPlayer.Character.Humanoid.JumpSpeed = 50
 
 pcall(function()
     local lighting = game:GetService("Lighting");
@@ -32,19 +33,4 @@ pcall(function()
             end;
         end;
     end);
-end)
-
-local Player = game.Players.LocalPlayer
-local Character = Player.Character
-local Humanoid = Character.Humanoid
- 
-print('Infinite health active..')
- 
-Humanoid.MaxHealth = 999999
-Humanoid.Health = Humanoid.MaxHealth / 2000
- 
-Humanoid.HealthChanged:connect(function()
-    if Humanoid.Health < 99 then
-        Humanoid.Health = Humanoid.MaxHealth
-    end
 end)
