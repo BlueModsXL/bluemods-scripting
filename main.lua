@@ -4,7 +4,7 @@
         message:Destroy()
 
 -- Speed & Jump Boost by BlueMods
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
 game.Players.LocalPlayer.Character.Humanoid.JumpSpeed = 50
 
 pcall(function()
